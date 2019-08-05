@@ -21,7 +21,7 @@ public class Issue {
         this.commentList = new ArrayList<>();
         this.user = "Not assigned";
 
-        setIssueState("To be solved", null);
+        setIssueState("To do", null);
 
     }
 

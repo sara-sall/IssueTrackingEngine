@@ -4,7 +4,7 @@ import java.time.*;
 
 public class Main {
     private static String IN_PROGRESS = "In progress";
-    private static String TO_DO = "To be solved";
+    private static String TO_DO = "To do";
     private static String DONE = "Solved";
     private static IssuesList issues = new IssuesList();
     private static UsersList users = new UsersList();
@@ -55,7 +55,6 @@ public class Main {
     public static void testComment(){
 
         issues.assignUser(id1, user1);
-        issues.setIssueState(id1, IN_PROGRESS, null);
         issues.addIssueComment(id1, "I'm working on a solution");
         issues.addIssueComment(id1, "I'm having problems");
 
